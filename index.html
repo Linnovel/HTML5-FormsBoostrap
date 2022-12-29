@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/248d93b7fa.js" crossorigin="anonymous"></script>
+  <title>HTML5-FormsBoostrap</title>
+
+</head>
+
+<body>
+  <div class="group1-group1">
+    <div class="group1-table">
+      <div class="group1-header1">
+        <span class="group1-text"><span>Payment form example</span></span>
+      </div>
+      <div class="group1-header2">
+        <span class="group1-text02"><span>Some fields are missing</span></span>
+      </div>
+      <div class="FirstForms">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label"><strong>Card#</strong></label>
+            <input type="text" class="form-control" id="validationTooltip01" value="XXXXXXX" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label"><strong>Cvc#</strong></label>
+            <input type="text" class="form-control" id="validationTooltip02" value="0000" required>
+            <div class="valid-tooltip">$
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label"><strong>Amount</strong></label>
+            <div class="input-group has-validation">
+              <input type="text" class="form-control" id="validationTooltip02" value="Amount" required>
+              <div class="invalid-tooltip">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label"><strong>First Name</strong></label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Looks good!
+            </div>
+
+          </div>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label"><strong>Last name</strong></label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Looks good!
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label"><strong>City</strong></label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+            <div class="Text1">
+              <strong>We Accept</strong>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label"><strong>State</strong></label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Pick a State...</option>
+              <option>...</option>
+            </select>
+           <strong>Message</strong>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label"><strong>Postal Code</strong></label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a Postal Code.
+            </div>
+
+          </div>
+
+          <div class="RadioBox rounded">
+            
+            <input type="radio" id="Credit_Card" name="Credit_Card" value="Visa">
+            <i class="fa-brands fa-cc-visa"></i>
+            <input type="radio" id="Credit_Card" name="Credit_Card" value="MasterCard">
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <input type="radio" id="Credit_Card" name="Credit_Card" value="BankofAmerica">
+            <i class="fa-brands fa-cc-diners-club"></i>
+            <input type="radio" id="Credit_Card" name="Credit_Card" value="Paypal">
+            <i class="fa-brands fa-cc-paypal"></i>
+            
+          </div>
+          <div class="form-floating">
+            
+            <label for="validationTextarea" class="form-label"></label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+    <div class="invalid-feedback">
+      Please enter a message in the textarea.
+          </div>
+          <div class="Text2">
+          Add any notes here.
+          </div>
+
+          <div class="Nav1">
+          <ul class="nav justify-content-end">
+            <li class="nav-item1">
+              <button type="button" class="btn btn-secondary">Cancel</button>
+            </li>
+            <li class="nav-item2">
+              <button type="button" class="btn btn-primary">Send</button>
+
+            </li>
+          </ul>
+</body>
+
+</html>
